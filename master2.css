@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Lexend:wght@100;600&family=Outfit&family=Playfair+Display&display=swap');
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1000px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -3160px;
+  margin-left: 900px;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+header nav ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+header nav ul li a{
+  color: #FEF0DA;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.0em;
+  letter-spacing: -0.05em;
+  transition: 1s;
+  position: absolute;
+}
+header nav ul li a:hover{
+  color: #ffffff;
+  font-size: 1.1em;
+  transition: 0.8s;
+  position: relative;
+}
+
+.menu1{width: 214px;}
+.menu2{width: 293px;}
+.menu3{width: 136px;}
+.menu4{width: 240px;}
+
+/*sub*/
+.home2 {
+  width: 100%;
+  height: 3330px;
+  background-image: url('img/back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.int img {
+  position: absolute;
+  margin-top: -1270px;
+  margin-left: 50px;
+  opacity: 0;
+  animation: fadein 2.5s;
+  -webkit-animation: fadein 2.5s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+
+      }
+
+      @keyframes fadein {
+          from {opacity: 0;}
+          to {opacity: 1;}
+      }
+
+      @-webkit-keyframes fadein {
+          from {opacity: 0;}
+          to {opacity: 1;}
+      }
+
+.int2 img {
+  position: absolute;
+  margin-top: -1290px;
+  margin-left: 550px;
+  opacity: 0;
+  animation: fadein 2.5s;
+  -webkit-animation: fadein 2.5s;
+  animation-delay: 1.1s;
+  animation-fill-mode: forwards;
+
+
+
+    }
+
+      @keyframes fadein {
+            from {opacity: 0;}
+            to {opacity: 1;}
+      }
+
+      @-webkit-keyframes fadein {
+            from {opacity: 0;}
+            to {opacity: 1;}
+      }
+
+
+
+
+.ci2 img {
+   position: absolute;
+   margin-top: -1730px;
+   margin-left: -323px;
+   mix-blend-mode: multiply;
+   animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+      }
+
+      @keyframes fadein {
+          from {opacity: 0;}
+          to {opacity: 1;}
+      }
+
+      @-webkit-keyframes fadein { /* Safari and Chrome */
+          from {opacity: 0;}
+          to {opacity: 1;}
+      }
+
+
+.logo2 img {
+    position: absolute;
+    margin-top: -1565px;
+    margin-left: -790px;
+      }
+
+.pf img {
+  position: absolute;
+  margin-top: -480px;
+  margin-left: -660px;
+  z-index: 2;
+  transition: transform 0.7s, opacity 1s;
+
+}
+
+.pf2 img {
+  position: absolute;
+  margin-top: 1048px;
+  margin-left: 100px;
+  transition: transform 0.7s, opacity 1s;
+
+
+}
+
+
+.ci3 img {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -700px;
+  mix-blend-mode: multiply;
+  z-index: 1;
+  transition: transform 0.7s, opacity 1s;
+}
+
+.ci4 img {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -970px;
+  mix-blend-mode: multiply;
+  transition: transform 0.7s, opacity 1s;
+}
+
+.ci5 img {
+  position: absolute;
+  margin-top: 1416px;
+  margin-left: 420px;
+  mix-blend-mode: multiply;
+  transition: transform 0.7s, opacity 1s;
+}
+
+.intext img {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 150px;
+
+}
+
+.tit img {
+  position: absolute;
+  margin-top: 870px;
+  margin-left: -650px;
+
+}
+
+.ptext {
+  position: absolute;
+  text-align: center;
+  color:  #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  margin-top: -150px;
+  margin-left: 80px;
+  line-height: 1.8em;
+  font-size: 1.1em;
+
+}
+
+.ptext2 {
+  position: absolute;
+  text-align: center;
+  color:  #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  margin-top: 1100px;
+  margin-left: -450px;
+  line-height: 1.8em;
+  font-size: 1.1em;
+
+}
+
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: #14252E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.8em;
+  letter-spacing: -0.05em;
+}

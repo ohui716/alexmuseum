@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Lexend:wght@100;600&family=Outfit&family=Playfair+Display&display=swap');
+*{margin: 0;padding: 0;text-decoration: none;}
+
+
+header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  width: 1000px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -3080px;
+  margin-left: 900px;
+  z-index: 3;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+header nav ul li{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+header nav ul li a{
+  color: #FEF0DA;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.0em;
+  letter-spacing: -0.05em;
+  transition: 1s;
+  position: absolute;
+}
+header nav ul li a:hover{
+  color: #ffffff;
+  font-size: 1.1em;
+  transition: 0.8s;
+  position: relative;
+}
+
+.menu1{width: 214px;}
+.menu2{width: 293px;}
+.menu3{width: 136px;}
+.menu4{width: 240px;}
+
+
+/*sub*/
+.home4 {
+  width: 100%;
+  height: 3248px;
+  background-image: url('img/back2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo2 img {
+    position: absolute;
+    margin-top: -1525px;
+    margin-left: -790px;
+}
+
+.ci img {
+   position: absolute;
+   margin-top: -1585px;
+   margin-left: -230px;
+   mix-blend-mode: multiply;
+   z-index: 2;
+   animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+      }
+
+      @keyframes fadein {
+          from {opacity: 0;}
+          to {opacity: 1;}
+      }
+
+      @-webkit-keyframes fadein { /* Safari and Chrome */
+          from {opacity: 0;}
+          to {opacity: 1;}
+      }
+
+.th img {
+  position: absolute;
+  margin-top: -1190px;
+  margin-left: 140px;
+  opacity: 0;
+  z-index: 1;
+  animation: fadein 2.5s;
+  -webkit-animation: fadein 2.5s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+
+      }
+
+      @keyframes fadein {
+          from {opacity: 0;}
+          to {opacity: 1;}
+      }
+
+      @-webkit-keyframes fadein {
+          from {opacity: 0;}
+          to {opacity: 1;}
+        }
+
+.th2 img {
+  position: absolute;
+  margin-top: -1190px;
+  margin-left: 560px;
+  opacity: 0;
+  z-index: 1;
+  animation: fadein 2.5s;
+  -webkit-animation: fadein 2.5s;
+  animation-delay: 1.1s;
+  animation-fill-mode: forwards;
+
+
+
+    }
+
+      @keyframes fadein {
+            from {opacity: 0;}
+            to {opacity: 1;}
+      }
+
+      @-webkit-keyframes fadein {
+            from {opacity: 0;}
+            to {opacity: 1;}
+          }
+
+.bk img {
+  position: absolute;
+  margin-top: -456px;
+  margin-left: -970px;
+  mix-blend-mode: soft-light;
+  opacity: 0.6;
+  z-index: 1;
+  transition: transform 0.7s, opacity 1s;
+
+}
+
+.one img {
+  position: absolute;
+  margin-top: -450px;
+  margin-left: -952px;
+  z-index: 1;
+  transition: transform 0.7s, opacity 1s;
+
+}
+
+.two img {
+  position: absolute;
+  margin-top: 1090px;
+  margin-left: -896px;
+  z-index: 1;
+  transition: transform 0.7s, opacity 1s;
+
+}
+
+.three img {
+  position: absolute;
+  margin-top: 610px;
+  margin-left: 52px;
+  z-index: 1;
+  transition: transform 0.7s, opacity 1s;
+
+}
+
+.ttext {
+  position: absolute;
+  text-align: center;
+  color:  #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  margin-top: 190px;
+  margin-left: -500px;
+  line-height: 1.6em;
+  font-size: 1.25em;
+
+}
+
+.ttext2 {
+  position: absolute;
+  text-align: center;
+  color:  #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  margin-top: 350px;
+  margin-left: -630px;
+  line-height: 1.6em;
+  font-size: 1.25em;
+
+}
+
+.ttext3 {
+  position: absolute;
+  text-align: center;
+  color:  #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  margin-top: 950px;
+  margin-left: -540px;
+  line-height: 1.6em;
+  font-size: 1.25em;
+
+}
+
+.ttext4 {
+  position: absolute;
+  text-align: center;
+  color:  #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  margin-top: 1150px;
+  margin-left: -600px;
+  line-height: 1.6em;
+  font-size: 1.25em;
+
+}
+
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: #14252E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FEF0DA;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.8em;
+  letter-spacing: -0.05em;
+}
